@@ -1,0 +1,8 @@
+.navbar-nav .nav-link {
+  cursor: pointer;              /* Make cursor a hand */
+  transition: all 0.2s ease-in; /* Smooth animation */
+}
+
+.navbar-nav .nav-link:hover {
+color: black;
+}

@@ -1,0 +1,22 @@
+.about h2 {
+  font-size: 2rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Equal height cards using flex */
+.d-flex .card {
+  flex: 1;
+}

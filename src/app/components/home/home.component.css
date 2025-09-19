@@ -1,0 +1,23 @@
+.hero {
+  background-color: #f0f4ff; /* Light background */
+}
+
+.hero-img {
+  max-width: 280px;
+  border: 8px solid #fff;
+}
+
+.sectionBackground{
+    background-color: #EBF2FF;
+}
+
+.social-icon {
+  width: 60px;              /* fixed width */
+  height: 60px;             /* fixed height */
+  display: flex;            /* center content */
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;       /* perfect circle */
+  font-size: 1.5rem;        /* control icon size */
+  padding: 0;               /* reset padding */
+}
