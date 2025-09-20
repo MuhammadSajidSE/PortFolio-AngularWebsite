@@ -6,3 +6,26 @@
 .navbar-nav .nav-link:hover {
 color: black;
 }
+.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* distance below text */
+  width: 0;
+  height: 2px;
+  background-color: #0d6efd; /* Bootstrap primary color */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd; /* optional: change text color on hover */
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}

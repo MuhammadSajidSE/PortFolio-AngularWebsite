@@ -1,1 +1,69 @@
-<p>contact works!</p>
+<section class="py-5" style="background-color: #f0f6ff;">
+  <div class="container">
+    <br>
+    <br>
+    <!-- Section Title -->
+    <div class="text-center mb-4">
+      <h2 class="fw-bold text-primary">Get In Touch</h2>
+      <p class="text-muted fs-5">
+        I'm always open to discussing new opportunities and interesting projects.  
+        Lets connect and create something amazing together!
+      </p>
+    </div>
+    <!-- Contact Info Cards -->
+    <div class="row text-center mb-5">
+      <div class="col-md-4 mb-3">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body d-flex flex-column justify-content-center" style="min-height: 180px;">
+            <i class="bi bi-envelope fs-1 text-primary mb-3"></i>
+            <h6 class="fw-bold">Email</h6>
+            <p class="text-muted">muhammadsajid.dh&#64;gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body d-flex flex-column justify-content-center" style="min-height: 180px;">
+            <i class="bi bi-telephone fs-1 text-primary mb-3"></i>
+            <h6 class="fw-bold">Phone</h6>
+            <p class="text-muted">03474123383</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body d-flex flex-column justify-content-center" style="min-height: 180px;">
+            <i class="bi bi-geo-alt fs-1 text-primary mb-3"></i>
+            <h6 class="fw-bold">Location</h6>
+            <p class="text-muted">Karachi Orangi town</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="card border-0 shadow-sm p-4">
+      <form (submit)="sendEmail($event)">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" name="from_name" placeholder="Enter your name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" name="reply_to" placeholder="Enter your email" required>
+          </div>
+          <div class="col-12">
+            <input type="text" class="form-control" name="subject" placeholder="Enter subject" required>
+          </div>
+          <div class="col-12">
+            <textarea class="form-control" name="message" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary w-100 fw-bold">
+              Send Message
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

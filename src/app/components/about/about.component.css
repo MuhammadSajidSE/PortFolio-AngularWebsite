@@ -20,3 +20,11 @@
 .d-flex .card {
   flex: 1;
 }
+
+.sectionBackground{
+    background-color: #EBF2FF;
+}
+
+.custom-bg {
+  background-color: #EBF2FF !important;
+}

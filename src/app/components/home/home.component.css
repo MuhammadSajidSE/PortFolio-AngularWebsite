@@ -1,11 +1,19 @@
-.hero {
-  background-color: #f0f4ff; /* Light background */
+.hero-img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border: 8px solid #fff;
+  border-radius: 50%;
 }
 
-.hero-img {
-  max-width: 280px;
-  border: 8px solid #fff;
+/* Mobile size adjustment */
+@media (max-width: 576px) {
+  .hero-img {
+    max-width: 180px;  /* smaller image on small screens */
+    border-width: 5px; /* optional: thinner border for mobile */
+  }
 }
+
 
 .sectionBackground{
     background-color: #EBF2FF;
@@ -21,3 +29,5 @@
   font-size: 1.5rem;        /* control icon size */
   padding: 0;               /* reset padding */
 }
+
+

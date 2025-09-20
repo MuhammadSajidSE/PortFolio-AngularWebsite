@@ -1,0 +1,7 @@
+.custom-img {
+  width: 60vh;   /* adjust width */
+  height: 50vh;  /* adjust height */
+  object-fit: cover; /* keeps image ratio inside fixed box */
+  /* blue border */
+  border-radius: 15px; /* rounded corners */
+}

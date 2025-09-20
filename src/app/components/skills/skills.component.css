@@ -1,0 +1,14 @@
+.sky-badge {
+  background-color: #ebf2ff;   /* Sky Blue */
+  border: 0.5px solid #f1f1f1;  /* border same as bg */
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+   /* text turns sky blue */
+  cursor: pointer;            /* show hand cursor */
+  transition: all 0.3s ease;  /* smooth hover effect */
+}
+
+.sky-badge:hover {
+  background-color: #ffffff;  /* white on hover */
+  border: 1px solid #87CEEB;  /* keep sky blue border */
+}
