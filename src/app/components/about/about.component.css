@@ -1,6 +1,3 @@
-.about h2 {
-  /* font-size: 2rem; */
-}
 
 .about p {
   /* font-size: 1rem; */
@@ -27,4 +24,12 @@
 
 .custom-bg {
   background-color: #EBF2FF !important;
+}
+
+.custom-bg {
+  padding: 1rem !important;   /* smaller padding */
+}
+
+.custom-bg p {
+  margin-bottom: 0;          /* remove extra bottom spacing */
 }

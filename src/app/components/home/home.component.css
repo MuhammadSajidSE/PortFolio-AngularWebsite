@@ -1,16 +1,18 @@
 .hero-img {
-  max-width: 300px;
-  width: 100%;
+  width: 70%;
+  max-width: 250px;       /* bigger maximum size */
   height: auto;
   border: 8px solid #fff;
-  border-radius: 50%;
+  border-radius: 50%;     /* keeps it circular */
+  object-fit: cover;      /* ensures image fills the circle nicely */
+  transition: all 0.3s ease; /* smooth resizing */
 }
 
 /* Mobile size adjustment */
 @media (max-width: 576px) {
   .hero-img {
-    max-width: 180px;  /* smaller image on small screens */
-    border-width: 5px; /* optional: thinner border for mobile */
+    max-width: 250px;     /* still smaller on mobile */
+    border-width: 5px;
   }
 }
 
@@ -20,14 +22,16 @@
 }
 
 .social-icon {
-  width: 60px;              /* fixed width */
-  height: 60px;             /* fixed height */
-  display: flex;            /* center content */
+  width: 40px;              
+  height: 40px;             
+  display: flex;            
   align-items: center;
   justify-content: center;
-  border-radius: 50%;       /* perfect circle */
-  /* font-size: 1.5rem;         */
-  padding: 0;               /* reset padding */
+  border-radius: 50%;       
+  padding: 0;               
 }
 
+.social-icon i {
+  font-size: 1rem;  /* adjust if needed */
+}
 

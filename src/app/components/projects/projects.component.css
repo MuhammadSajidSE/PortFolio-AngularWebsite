@@ -1,7 +1,12 @@
 .custom-img {
-  width: 60vh;   /* adjust width */
-  height: 50vh;  /* adjust height */
+  width: 50vh;   /* adjust width */
+  height: 40vh;  /* adjust height */
   object-fit: cover; /* keeps image ratio inside fixed box */
   /* blue border */
   border-radius: 15px; /* rounded corners */
+}
+
+.card-img-top {
+  max-height: 250px;   /* control height */
+  object-fit: cover;   /* crop instead of squish */
 }
